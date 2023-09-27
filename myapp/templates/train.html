@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Train Model</title>
+</head>
+<body>
+<form method="post">
+    {{ form.hidden_tag() }}
+    {{ form.x_columns.label }}: {{ form.x_columns() }}<br>
+    {{ form.y_column.label }}: {{ form.y_column() }}<br>
+    {{ form.mode.label }}: {{ form.mode() }}<br>
+    {{ form.algorithms.label }}: {{ form.algorithms() }}<br>
+    {{ form.time_limit.label }}: {{ form.time_limit() }}<br>
+    {{ form.submit() }}
+</form>
+</body>
+</html>

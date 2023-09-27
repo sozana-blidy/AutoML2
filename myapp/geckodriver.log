@@ -1,0 +1,58 @@
+1694606363761	geckodriver	INFO	Listening on 127.0.0.1:50546
+1694606366850	mozrunner::runner	INFO	Running command: "C:\\Users\\hassanl\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debugg ...  "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hassanl\\AppData\\Local\\Temp\\rust_mozprofileKkJOvL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694606367477	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694606367540	Marionette	INFO	Listening on port 50575
+WebDriver BiDi listening on ws://127.0.0.1:50547
+Read port: 50575
+1694606367700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50547/devtools/browser/21ba901e-1350-4bb0-bb94-ffb794991463
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://2023.moed.gov.sy."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://2023.moed.gov.sy."
+1694606423933	Marionette	INFO	Stopped listening on port 50575
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1694606426743	geckodriver	INFO	Listening on 127.0.0.1:50673
+1694606429798	mozrunner::runner	INFO	Running command: "C:\\Users\\hassanl\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debugg ...  "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hassanl\\AppData\\Local\\Temp\\rust_mozprofileJw0xtq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694606430198	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694606430261	Marionette	INFO	Listening on port 50683
+WebDriver BiDi listening on ws://127.0.0.1:50674
+Read port: 50683
+1694606430414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50674/devtools/browser/3fb1745f-7551-4018-9e68-a859d945e4c4
+1694606782753	Marionette	INFO	Stopped listening on port 50683
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+-profile" "C:\\Users\\hassanl\\AppData\\Local\\Temp\\rust_mozprofilew4vPJn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694606744219	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694606744278	Marionette	INFO	Listening on port 51243
+WebDriver BiDi listening on ws://127.0.0.1:51234
+Read port: 51243
+1694606744382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51234/devtools/browser/24666658-96c4-43e6-b253-3df636c61524
+1694606772556	Marionette	INFO	Stopped listening on port 51243
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1694695049512	geckodriver	INFO	Listening on 127.0.0.1:59268
+1694695052605	mozrunner::runner	INFO	Running command: "C:\\Users\\hassanl\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debugg ...  "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hassanl\\AppData\\Local\\Temp\\rust_mozprofileSeBnvF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694695053927	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694695054008	Marionette	INFO	Listening on port 59278
+WebDriver BiDi listening on ws://127.0.0.1:59269
+Read port: 59278
+1694695054235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59269/devtools/browser/040220b9-4b6e-46a5-aa68-0cb2cd401dde
+1694695060931	Marionette	INFO	Stopped listening on port 59278
+Dynamically enable window occlusion 1
