@@ -1,0 +1,26 @@
+Day 1:
+Mohammed: Thoroughly study the provided parameters and configurations page to understand the significance of each parameter in the RISC-V design concerning power and performance.
+Ali: Familiarize himself with the existing GitHub project and the Flask code provided.
+Heidar: Go through the AutoML and MLjar-supervised documentation to understand its current implementation in the project.
+Day 2:
+Mohammed: Continue exploring the RISC-V CVA6 design, focusing on the benchmarks (Median, Dhrystone, MatMul) that will be used in the project.
+Ali: Begin studying AutoML, focusing on the statistical and mathematical principles involved.
+Heidar: Familiarize himself with RISC-V, focusing on the architecture and its importance in the project.
+Day 3:
+Mohammed: Begin correlating the RISC-V parameters with the benchmarks, and start brainstorming on how these parameters could be represented and used in the AutoML model.
+Ali: Continue working on understanding the statistical math notions of AutoML.
+Heidar: Explore the AutoKeras documentation and understand how it can be integrated into the existing project in place of MLjar-supervised.
+Day 4:
+Mohammed: Discuss with the team how the RISC-V parameters and configurations might influence the design of the AutoML model for predicting power and performance.
+Ali: Start working on improving the styling of the Flask application using CSS and JavaScript.
+Heidar: Familiarize himself with model registry concepts and start drafting a plan for its implementation.
+Day 5:
+Mohammed: Draft a document detailing the significance of RISC-V parameters in the project and share with the team.
+Ali: Continue integrating the updated styling into the Flask application.
+Heidar: Research on best practices for implementing a model registry and share findings with the team.
+Day 6:
+All: Team meeting to review the work done over the week, discuss challenges faced, and plan for the following week.
+All: Review each other's findings, especially Mohammed's document on RISC-V parameters, and discuss how to integrate this understanding into the AutoML model design.
+Day 7:
+All: Documentation - update the project documentation on GitHub to reflect the changes and findings made during the week.
+All: Prepare a report summarizing the week’s activities, learning, and the plan for the next week.
