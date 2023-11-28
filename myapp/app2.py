@@ -6,7 +6,7 @@ import pandas as pd
 from supervised.automl import AutoML
 import os
 import shutil
-import BeautifulSoup
+from bs4 import BeautifulSoup
 from flask import flash
 
 app = Flask(__name__)
