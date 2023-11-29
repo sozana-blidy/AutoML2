@@ -3,11 +3,18 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SelectField, SubmitField, FileField
 from wtforms.validators import DataRequired
 import pandas as pd
-from supervised.automl import AutoML
+#from supervised.automl import AutoML
+from bs4 import BeautifulSoup
 import os
 import shutil
-from bs4 import BeautifulSoup
 from flask import flash
+#using edited mljar to use autokeras
+import sys
+sys.path.append('D:/OFFICE-WORK-NOV2023/SecondWeek/AutoML2-master/myapp/mljar_supervised/supervised')  # Replace '/path/to/project/path1' with the actual path to script1.py
+ 
+import automl 
+from automl import AutoML 
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecretkey'
@@ -28,6 +35,7 @@ class ModelTrainingForm(FlaskForm):
                             choices=[('60', '60'), ('120', '120'), ('240', '240'), ('300', '300')])
     submit = SubmitField('Start Training')
 
+#adding username and password for logging in
 allowed_usernames = ['hassan', 'obai', 'sozana','laith','madeleine']
 @app.route('/')
 def index():
@@ -86,6 +94,7 @@ def train_model():
         automl.fit(df[x_columns], df[y_column])
 
         html_content_data = automl.report().data
+        #remove mljar image
         soup = BeautifulSoup(html_content_data, 'html.parser')
         image_src_to_remove = "https://raw.githubusercontent.com/mljar/visual-identity/main/media/mljar_AutomatedML.png"
         image_tags_to_remove = soup.find_all('img', src=image_src_to_remove)
@@ -100,4 +109,4 @@ def train_model():
 
  
 if __name__ == "__main__":
-    app.run(debug=True) 
+    app.run(debug=True)
